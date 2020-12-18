@@ -1,0 +1,54 @@
+header{
+    /*position: relative; 
+    left:100px;*/
+    background-color:rgb(221, 172, 99);
+    padding: 20px;
+    text-align:left;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+header h1{ 
+    color:white;
+    border:8px solid white ;
+    padding: 6px 12px;
+    display: inline-block;
+    border-radius:10px;
+}
+
+
+
+ main.content{
+  display: grid;
+  grid-template-columns:repeat(3,1fr);
+  /* grid-row: column gap 10px; */
+   grid-gap: 10px;
+  grid-template-rows: masonry;
+}
+
+
+ 
+
+  /* div.gallery {
+    /* margin: 5px; 
+    border: 1px solid #ccc;
+    float: right;
+    width: auto;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  /* } */
+  
+  div.gallery img {
+    display:grid;
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    /* padding: 15px; */
+    text-align: center;
+  }
